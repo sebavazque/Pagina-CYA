@@ -1216,8 +1216,8 @@ section::before {
 
 @media  (max-width: 560px){
     .galeContent img{
-        width: 260px;
-        height: 240px;
+        width: 330px;
+        height: 310px;
         margin-bottom: 20px;
     }
         footer .menuFoot{
@@ -1376,8 +1376,8 @@ section::before {
     
 @media  (max-width: 415px){
     .galeContent img{
-        width: 230px;
-        height: 220px;
+        width: 300px;
+        height: 290px;
         margin-bottom: 20px;
     }
     .s3 {
