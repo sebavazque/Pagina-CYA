@@ -1171,6 +1171,8 @@ section::before {
         margin-top: 200px;
     }
 
+    
+
 @media  (max-width: 645px){
     .banner h2{
         font-size: 35px;
