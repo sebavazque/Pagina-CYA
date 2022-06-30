@@ -1,11 +1,11 @@
 import React from 'react'
 import camara from './imagen/camara.jpeg'
-import batea1 from './imagen/batea1.jpg'
 import h1 from './imagen/h1.jpeg'
 import AIRE from './imagen/AIRE.jpg'
 import central from './imagen/central.jpg'
 import { Link } from 'react-router-dom'
 import { BsChevronDoubleDown } from "react-icons/bs";
+import mostrador2 from './imagen/mostrador2.jpeg'
 
 
 const ListaProductos = ({producto}) => {
@@ -30,7 +30,7 @@ const ListaProductos = ({producto}) => {
 
 
                     <div className='productContent'>
-                        <img src={batea1} alt=""/>
+                        <img src={mostrador2} alt=""/>
                         <h2>Bateas</h2>
                         <Link to='/batea/6' >Ver mas detalles</Link>
                     </div>

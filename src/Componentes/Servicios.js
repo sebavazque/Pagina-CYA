@@ -16,7 +16,7 @@ const Servicios = () => {
         <div className='card'>
             <img id='img1'  src={engranaje} alt=""/>
             <h4>Mantenimiento</h4>
-            <span>Nuestro equipo esta capacitado para poder resolver cualquier tipo de problema, estamos siempre listos para actuar lo antes posible.</span>
+            <span>Nuestro equipo esta capacitado para poder resolver cualquier tipo de problemas, estamos siempre listos para actuar lo antes posible.</span>
         </div>
         <div className='card'>
             <img src={idea} alt=""/>
