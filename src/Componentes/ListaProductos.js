@@ -6,7 +6,7 @@ import central from './imagen/central.jpg'
 import { Link } from 'react-router-dom'
 import { BsChevronDoubleDown } from "react-icons/bs";
 import mostrador2 from './imagen/mostrador2.jpeg'
-
+import freezer from './imagen/freezer.jpeg'
 
 const ListaProductos = ({producto}) => {
     return (
@@ -52,6 +52,12 @@ const ListaProductos = ({producto}) => {
                         <img src={AIRE} alt="" />
                         <h2>Aires Acondicionados</h2>
                         <Link to='/aire/3' >Ver mas detalles</Link>
+                    </div> 
+
+                    <div className='productContent'>
+                        <img src={freezer} alt="" />
+                        <h2>Freezers Verticales</h2>
+                        <Link to='/freezer/5' >Ver mas detalles</Link>
                     </div> 
 
 
